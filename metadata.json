@@ -1,0 +1,6 @@
+{
+  "name": "Synthetix AI IDE - Autonomous AI Software Development Environment",
+  "description": "Full-featured professional AI IDE with real agentic workflow, full codebase context, inline editing, terminal, git, and multi-model support.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

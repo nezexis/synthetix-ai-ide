@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #111317;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #252a36;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #373e4f;
+}
+
+/* Hide scrollbar for tabs */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Themes */
+html.dark-modern {
+  --bg-primary: #0e1014;
+  --bg-secondary: #14171d;
+  --border-color: #20242e;
+}
+
+html.cyberpunk-navy {
+  --bg-primary: #090d16;
+  --bg-secondary: #0d121f;
+  --border-color: #172238;
+}
+
+html.monokai-pro {
+  --bg-primary: #121212;
+  --bg-secondary: #191919;
+  --border-color: #282828;
+}
+
+html.clean-light {
+  --bg-primary: #f8fafc;
+  --bg-secondary: #ffffff;
+  --border-color: #e2e8f0;
+}
